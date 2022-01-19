@@ -48,7 +48,7 @@ public class ProductsCreationPortlet extends MVCPortlet {
 		String pbrand=ParamUtil.getString(actionRequest,"pbrand");
 		
 		System.out.println("process action product data"+ cupid + pname+ ptype + pprice + pbrand);
-		
+		System.out.println("Test01");
 		//String cupidst= Integer.parseInt()
 		
 		JSONObject jsonObject =  JSONFactoryUtil.createJSONObject();
