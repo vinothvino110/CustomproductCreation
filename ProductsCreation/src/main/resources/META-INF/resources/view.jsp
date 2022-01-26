@@ -31,7 +31,7 @@ Object datajsp=request.getAttribute("data");
 %>
 
 <div style="border-radius: 10px; background: beige; padding: 10px; height : 110px; width:150px;">
-  Product Details:
+  Product Details:::
   <%=ParamUtil.getString(request,"pname") %>
   <%=ParamUtil.getString(request,"pprice") %>
   
